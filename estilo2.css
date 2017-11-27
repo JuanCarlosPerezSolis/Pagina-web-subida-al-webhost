@@ -1,0 +1,370 @@
+/*https://www.material.io */
+/*https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+header {
+	width:85%;
+	height:150px;
+	border:8px double #006400;
+	border-radius:8px;
+	background:#ffffff;
+	margin:10px auto 0px;
+}
+
+header img{
+	display: inline-block;
+	width:1075px;
+	height:150px;
+	margin top:25px;
+	margin- left:50px;
+	position:absolute;
+
+}
+
+
+header h1{
+	display: inline-block;
+	margin-left:600px;
+	margin-top:70px;
+	position:absolute;
+	color:#ff0000;
+	font-size: 3em;
+  /*font-family: 'Covered By Your Grace', text-shadow:2px 4px #5eaf70;*/
+  font-family: 'Lobster', cursive;
+
+	transition-propietary: color, text-shadow;
+	transition-duration:ls,1.5s;
+	-webkit-transition:color,1s;
+	-moz-transition:color 1s;
+}
+header h2{
+	display: inline-block;
+	margin-left:100px;
+	margin-top:30px;
+	position:absolute;
+	color:#ff0000;
+	font-size: 6em;
+  /*font-family: 'Covered By Your Grace', text-shadow:2px 4px #5eaf70;*/
+  font-family: 'Lobster', cursive;
+
+	transition-propietary: color, text-shadow;
+	transition-duration:ls,4.5s;
+	-webkit-transition:color,5s;
+	-moz-transition:color 5s;
+}
+nav{
+	width: 100%;
+	height: 30px;
+	margin: 10px auto 0px;
+	padding: 0px;
+	text-align: center;
+
+}
+nav ul{
+	list-style: none;
+	padding: :0px;
+	margin: 0px 0px 0px 0px;
+
+}
+nav ul >li{
+	display: inline-block;
+	width: 160px;
+	height: 25px;
+	border: 1px solid #006400;
+	text-align: center;
+	padding-top:5px;
+	background: #ff0000;
+	font-size: 1em;
+	font-family: 'chewy',cursive;
+	color: #ffa07a;
+	text-shadow: 2px 4px 4px #E8EAF6;
+	transition-property: background. color;
+	transition-duration: 2s,2s;
+
+}
+nav ul >li:hover{
+	background: #CD5C5C;
+	letter-spacing: .2px;
+}
+nav >ul >li a{
+	text-decoration: none;;
+	color: #00ffff
+}
+nav ul li ul{
+	position: absolute;
+	display: none;
+}
+nav ul li ul li{
+	display: block;
+}
+nav ul li:hover ul{
+	display: block;
+	margin-top: 4px;
+	background: #00ced1
+}
+#contenido{
+	width: 85%;
+	height: auto;
+	margin: 0px auto 0px;
+
+}
+#contenido h2{
+	color: #008000;
+	font-size: 2em;
+	font-family: 'Covered By Your Grace', cursive;
+	text-align: center;
+	text-shadow: 2px 4px 4px #008000;
+
+}
+#contenido p{
+	font-size: 1em;
+	font-size: 'Abel', sans-serif;
+	text-align: justify;
+	font-weight: bold;
+}
+hr{//color de la franja de arriba de registro de futbolistas
+	width: 900px;
+	height: 10px;
+	background: #006400;
+	border-radius: 5px;
+}
+section{
+	width: 1200px;
+	height: auto;
+	background: #ffffff;//COLOR DE CUADRO DE REGISTRO DE FUTBOLISTAS
+	margin-top: 5px;
+
+}
+fieldset{
+	margin: 10px auto 10px;
+	height: 400px;
+	width: 800px;
+	border:4px double #303F9F;
+	border-radius: 5px;
+}
+
+legend{
+	font-size: 1.5em;
+	color:#303f9f;
+	font-family: 'Abel', sans-serif;
+	margin-left: 100px;
+
+}
+form label{
+	font-size: 1.2em;
+	font-family: 'Abel', sans-serif;
+	color:#008080;
+	padding-right: 2px;
+}
+form input{//tamaño de las cajas de nombre y nombre de equipo
+		width: 200px;
+	height: 20px;
+	padding-left: 10px;
+	font-family: 'Abel', sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	color:#800000;
+	border-radius: 4px;
+	border:2px solid #303F9F;
+
+
+}
+form textarea{
+	width: 700px;
+	height: 80px;
+	margin-left: 20px;
+	font-family: 'Abel', sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	color:#000000;
+	border-radius: 4px;
+	border: 2px solid #2F4F4F;
+
+}
+
+#enviar{
+	height: 25px;
+	width: 100px;
+	background: #00F000;
+	font-size: 1em;
+	font-weight: bold;
+	color:#fff;
+	border-radius: 4px;
+	border: none;
+	box-shadow: -1px 5px 3px 0px #004D40;
+}
+#cancelar{
+	height: 25px;
+	width: 100px;
+	background: #f00000;
+	font-size: 1em;
+	font-weight: bold;
+	color:#fff;
+	border-radius: 4px;
+	border: none;
+	box-shadow: -1px 5px 3px 0px #004D40;
+
+}
+
+#sitio{
+	background: #98FB98;//COLOR DE CUADRO DE TEXTOS
+
+}
+.sitios{//letras verde grandes
+	display: inline-block;
+	width: 230px;
+	height: 720px;//alto de los cuadros de reglas
+	margin-left: 0px;
+	margin-right: 20px;
+}
+.sitios img{//tamaño de la imagen
+	width: 700px;
+	height: 700px;
+	position: absolute;
+	margin-left: 0px;
+}
+.sitios img:hover{//cresimiento de la imagen
+	width: 710px;
+	height: 710px;
+	margin-left: 0px;	
+}
+.sitios p{/textos de sitios
+	font-family: arial;
+	font-size: 13px;
+	font-weight: none;
+	width: 1000px;
+	height: 200px;
+	margin-left: 10px;
+	position: absolute;
+}
+.sitios fieldset{
+	margin: 10px auto 10px;
+	height: auto;
+	width: 240px;
+	border: 4px double #303F9F;
+	border-radius: 5px;
+	position: absolute;
+}
+#entradas{
+	background: #fff;
+
+}
+article{//tamano de los cuadros de las reglas
+
+	margin:10px auto 10px;
+	height: auto;
+	width: 300px;
+	border: 4px double #303F9F;
+	border-radius: 5px;
+	text-align: justify;
+	padding-left: 50px;
+	padding-right: 850px;
+}
+#redes{
+	margin: 10px auto 10px;
+	height: auto;
+	width: 95%;
+	border-radius: 4px;
+}
+#redes ul li{
+	display: inline-block;
+	width: 40%;
+	height: auto;
+	padding-top: 5px;
+	padding-left: 20px;
+	background: #E8EAF6;
+	text-shadow: 2px 4px 4px #E8EAF6;
+}
+#biografia{
+	margin: 10px auto 10px;
+	height: auto;
+	width: 800px;
+	border:4px double #303F9F;
+	box-shadow: 2px 5px 3px #000;
+	padding-left: 10px;
+}
+#twitter{
+	margin: 10px auto 10px;
+	height: auto;
+	width: 600px;
+
+}
+#mult{
+	margin: 10px auto 10px;
+	width: 850px;
+	height: auto;
+	display: block;
+}
+footer{//cuadro de derechos
+	width: 85%;
+	height: 50px;
+	color: #FFFFFF;
+	padding-top: 5px;
+	font-family: 'Lobster', cursive;
+	background: #228B22;
+	margin: 0px auto 5px;
+	text-align: center;
+	font-size: 1.5em;
+
+}
+
+
+@media screen and (max.width: 980px){
+	*{
+		margin:0px;
+	}
+	header, nav, #contenido, footer, hr {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 630px){
+	nav{
+		height: auto;
+
+	}
+	nav ul li{
+		width: 100%;
+		display: block;
+		border-bottom: 1.5px solid #000;
+	}
+}
+@media screen and (max-width: 860px){
+	header h1{
+		font-size: 3em;
+		margin-left: 200px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
